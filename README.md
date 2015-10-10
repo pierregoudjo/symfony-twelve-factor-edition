@@ -22,6 +22,8 @@ The Symfony Twelve-Factor Edition is configured with the following defaults:
   * A .env.example file that contains an example of configuration variables. (You can rename it as .env if
     you want to load the environment from a file)
 
+  * A simple Vagrantfile with some shell provisioning to install PHP/NGINX and the default config to make symfony works like a breeze
+
 It comes pre-configured with the following bundles:
 
   * **FrameworkBundle** - The core Symfony framework bundle
