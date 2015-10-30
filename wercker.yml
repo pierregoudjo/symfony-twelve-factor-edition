@@ -27,7 +27,7 @@ build:
     - script:
         name: dependencies-install
         code: |
-          composer install
+          composer.phar install
     - script:
         name: launch-tests
         code: |
