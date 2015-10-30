@@ -29,7 +29,7 @@ build:
     - script:
         name: dependencies-install
         code: |
-          ./composer install
+          ./composer install --no-interaction --prefer-source
     - script:
         name: launch-tests
         code: |
