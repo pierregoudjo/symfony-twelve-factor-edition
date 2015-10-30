@@ -24,10 +24,12 @@ build:
         name: composer-download
         code: |
           curl -sS https://getcomposer.org/installer | php
+          chmod +x composer.phar
+          mv composer.phar composer
     - script:
         name: dependencies-install
         code: |
-          composer.phar install
+          ./composer install
     - script:
         name: launch-tests
         code: |
