@@ -12,4 +12,7 @@ $loader = require __DIR__.'/../vendor/autoload.php';
 
 AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 
+$dotenv = new Dotenv(__DIR__ . '/../');
+$dotenv->overLoad();
+
 return $loader;
