@@ -6,3 +6,5 @@ before_script:
   - bin/composer install --prefer-dist
 notifications:
   email: false
+env:
+ - DSN_URL=sqlite:///database MAILER_TRANSPORT=smtp MAILER_HOST=127.0.0.1 MAILER_USER=user MAILER_PASSWORD=password SECRET=ThisTokenIsNotSoSecretChangeIt SYMFONY_ENV=dev SYMFONY_DEBUG=true LOG_LEVEL=info
