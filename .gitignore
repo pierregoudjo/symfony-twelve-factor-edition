@@ -9,3 +9,6 @@
 /web/bundles/
 .env
 .vagrant
+/bin
+!/bin/console
+!/bin/symfony_requirements
