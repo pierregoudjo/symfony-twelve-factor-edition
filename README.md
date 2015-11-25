@@ -1,5 +1,6 @@
 Symfony Twelve-Factor Edition
 =================================
+[ ![Codeship Status for pierregoudjo/symfony-twelve-factor-edition](https://codeship.com/projects/4b200ab0-6156-0133-62e1-066368b87f16/status?branch=master)](https://codeship.com/projects/112472)
 
 Welcome to the Symfony Twelve-Factor Edition - a fully-functional Symfony2
 application that you can use as the skeleton for your new applications.
