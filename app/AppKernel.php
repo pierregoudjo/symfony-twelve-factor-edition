@@ -2,6 +2,7 @@
 
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class AppKernel extends Kernel
 {
@@ -46,5 +47,12 @@ class AppKernel extends Kernel
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load($this->getRootDir().'/config/config.yml');
+        if (in_array($this->getEnvironment(), array('dev', 'test'))) {
+            $loader->load(function (ContainerBuilder $container) use ($loader) {
+                $container->loadFromExtension('framework', array(
+                    'test' => true
+                ));
+            });
+        }
     }
 }
