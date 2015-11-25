@@ -12,4 +12,9 @@ $loader = require __DIR__.'/../vendor/autoload.php';
 
 AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 
+if (!isset($_SERVER['SYMFONY_ENV'])) {
+    $dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
+    $dotenv->overLoad();
+}
+
 return $loader;

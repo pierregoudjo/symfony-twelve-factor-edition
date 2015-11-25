@@ -24,10 +24,6 @@ $apcLoader->register(true);
 require_once __DIR__.'/../app/AppKernel.php';
 //require_once __DIR__.'/../app/AppCache.php';
 
-
-$dotenv = new Dotenv(__DIR__ . '/../');
-$dotenv->overLoad();
-
 if ((bool)$_SERVER['SYMFONY_DEBUG']) {
 	Debug::enable();
 }
