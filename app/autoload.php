@@ -16,7 +16,5 @@ if (!isset($_SERVER['SYMFONY_ENV'])) {
     $dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
     $dotenv->overLoad();
 }
-$dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
-$dotenv->overLoad();
 
 return $loader;
