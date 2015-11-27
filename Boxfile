@@ -1,0 +1,20 @@
+build:
+    php_extensions:
+        - iconv
+        - json
+        - session
+        - ctype
+        - tokenizer
+        - simplexml
+        - dom
+        - xml
+        - mbstring
+        - filter
+        - posix
+        - intl
+        - curl
+        - pdo
+        - pdo_mysql
+    php_zend_extensions:
+        - opcache
+    php_short_open_tag: false
