@@ -12,8 +12,6 @@ web1:
         - var/logs/
         - var/sessions
     httpd_document_root: web
-    httpd_modules:
-        - rewrite
     httpd_index_list:
         - index.php
     php_extensions:
