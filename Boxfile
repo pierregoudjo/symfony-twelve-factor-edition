@@ -13,6 +13,7 @@ web1:
         - var/sessions
     httpd_document_root: web
     httpd_index_list:
+        - index.html
         - index.php
     php_extensions:
         - iconv
