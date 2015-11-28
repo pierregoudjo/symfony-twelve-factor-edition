@@ -7,11 +7,15 @@ web1:
     name: site
     type: php
     version: 5.6
-    network_dirs:
-        storage1:
-            - var/cache/
-            - var/logs/
-            - var/sessions
+    nonpersistent_writable_dirs:
+        - var/cache/
+        - var/logs/
+        - var/sessions
+    httpd_document_root: web
+    httpd_modules:
+        - rewrite
+    httpd_index_list:
+        - index.php
     php_extensions:
         - iconv
         - json
