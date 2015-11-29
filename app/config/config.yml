@@ -45,7 +45,7 @@ monolog:
     handlers:
         main:
             type:  stream
-            path:  "php://stdout"
+            path:  "php://output"
             level: "%LOG_LEVEL%"
 
 # Swiftmailer Configuration
