@@ -1,6 +1,8 @@
 build:
     type: php
     version: 5.6
+    lib_dirs: vendor
+    reuse_libs: true
 web1:
     name: site
     type: php
@@ -10,7 +12,6 @@ web1:
         - var/logs/
         - var/sessions
     httpd_document_root: web
-    httpd_log_level: debug
     php_extensions:
         - iconv
         - json
@@ -32,7 +33,8 @@ web1:
     php_short_open_tag: false
     php_newrelic_capture_params: false
     php_newrelic_ignored_params: ""
-    php_newrelic_loglevel: "debug"
+    php_newrelic_loglevel: "info"
+    php_newrelic_framework: symfony2
     php_newrelic_browser_monitoring_auto_instrument: true
     php_newrelic_transaction_tracer_enabled: true
     php_newrelic_transaction_tracer_detail: 1
