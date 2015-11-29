@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "45b28088c39fbda287629842197bb923",
+    "hash": "d07ca1f3b7b06190c6a5dbcf29da823e",
     "content-hash": "79789db1c894c2592b5ecb45cc8c2f9a",
     "packages": [
         {
@@ -439,20 +439,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
-                "reference": "28c7df5d4f94bf822e0bc45a4dddffb897bb7a84"
+                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/28c7df5d4f94bf822e0bc45a4dddffb897bb7a84",
-                "reference": "28c7df5d4f94bf822e0bc45a4dddffb897bb7a84",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/030ff41ef1db66370b36467086bfb817a661fe6a",
+                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a",
                 "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.4.2",
                 "doctrine/inflector": "~1.0",
                 "php": ">=5.3.2",
-                "symfony/doctrine-bridge": "~2.2|~3.0",
-                "symfony/security-acl": "~2.3|~3.0"
+                "symfony/doctrine-bridge": "~2.2|~3.0"
             },
             "require-dev": {
                 "instaclick/coding-standard": "~1.1",
@@ -465,8 +464,12 @@
                 "symfony/finder": "~2.2|~3.0",
                 "symfony/framework-bundle": "~2.2|~3.0",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/security-acl": "~2.3|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0"
+            },
+            "suggest": {
+                "symfony/security-acl": "For using this bundle to cache ACLs"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -515,7 +518,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-11-10 19:31:39"
+            "time": "2015-11-27 04:59:07"
         },
         {
             "name": "doctrine/inflector",
@@ -698,12 +701,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "b980e98ba3908772e3b2a0879440cab454dda37b"
+                "reference": "599f99471ef1e3aa47b79e45c02a72553bc1b786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/b980e98ba3908772e3b2a0879440cab454dda37b",
-                "reference": "b980e98ba3908772e3b2a0879440cab454dda37b",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/599f99471ef1e3aa47b79e45c02a72553bc1b786",
+                "reference": "599f99471ef1e3aa47b79e45c02a72553bc1b786",
                 "shasum": ""
             },
             "require": {
@@ -766,7 +769,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2015-11-23 13:27:26"
+            "time": "2015-11-26 20:30:56"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -987,12 +990,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "f48d77dcb3023577eb54f6901a27af025d6a313e"
+                "reference": "37bdfaa164396bec6ae00e37c23a6e187ad01bcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/f48d77dcb3023577eb54f6901a27af025d6a313e",
-                "reference": "f48d77dcb3023577eb54f6901a27af025d6a313e",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/37bdfaa164396bec6ae00e37c23a6e187ad01bcc",
+                "reference": "37bdfaa164396bec6ae00e37c23a6e187ad01bcc",
                 "shasum": ""
             },
             "require": {
@@ -1031,7 +1034,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-11-16 12:45:35"
+            "time": "2015-11-26 18:10:40"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -1533,12 +1536,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "b859d95c28fa5c867e795ccb9af9fff1f82f06d2"
+                "reference": "a3f48a5879beac7e9f69037cf58d0b3806475208"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/b859d95c28fa5c867e795ccb9af9fff1f82f06d2",
-                "reference": "b859d95c28fa5c867e795ccb9af9fff1f82f06d2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/a3f48a5879beac7e9f69037cf58d0b3806475208",
+                "reference": "a3f48a5879beac7e9f69037cf58d0b3806475208",
                 "shasum": ""
             },
             "require": {
@@ -1654,7 +1657,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-11-24 07:34:16"
+            "time": "2015-11-28 18:08:21"
         },
         {
             "name": "twig/twig",
