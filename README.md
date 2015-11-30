@@ -1,7 +1,6 @@
 Symfony Twelve-Factor Edition
 =================================
 [ ![Codeship Status for pierregoudjo/symfony-twelve-factor-edition](https://codeship.com/projects/4b200ab0-6156-0133-62e1-066368b87f16/status?branch=master)](https://codeship.com/projects/112472)
-
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/c891a63d764b4fc1a474c5776d04e39f)](https://www.codacy.com/app/pierre-goudjo/symfony-twelve-factor-edition)
 
 Welcome to the Symfony Twelve-Factor Edition - a fully-functional Symfony2
