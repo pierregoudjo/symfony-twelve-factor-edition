@@ -41,7 +41,7 @@ class AppKernel extends Kernel
 
     protected function getEnvParameters()
     {
-        return $_SERVER;
+        return $_ENV;
     }
 
     public function registerContainerConfiguration(LoaderInterface $loader)
