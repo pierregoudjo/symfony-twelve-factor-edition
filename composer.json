@@ -4,10 +4,10 @@
     "type": "project",
     "description": "The \"Symfony Twelve-factor Edition\" distribution",
     "autoload": {
-        "psr-4": { "": "src/" }
-    },
-    "autoload-dev": {
-        "psr-4": { "Tests\\": "tests/" }
+        "psr-4": { "": "src/" },
+        "exclude-from-classmap": [
+            "**/Tests/"
+        ]
     },
     "require": {
         "php": ">=5.5.9",
@@ -45,7 +45,6 @@
         "symfony-bin-dir": "bin",
         "symfony-var-dir": "var",
         "symfony-web-dir": "web",
-        "symfony-tests-dir": "tests",
         "symfony-assets-install": "relative"
     }
 }
