@@ -1,0 +1,29 @@
+{
+  "name": "symfony-twelve-factor-edition",
+  "version": "0.0.1",
+  "description": "Twelve-factor version of Symfony Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierregoudjo/symfony-twelve-factor-edition.git"
+  },
+  "author": "Pierre GOUDJO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierregoudjo/symfony-twelve-factor-edition/issues"
+  },
+  "homepage": "https://github.com/pierregoudjo/symfony-twelve-factor-edition#readme",
+  "dependencies": {
+    "csswring": "^4.1.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-uglify": "^1.5.1",
+    "postcss": "^5.0.14",
+    "postcss-cssnext": "^2.4.0"
+  }
+}

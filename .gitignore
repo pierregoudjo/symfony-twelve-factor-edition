@@ -1,12 +1,23 @@
-/app/config/parameters.yml
+
 /build/
 /phpunit.xml
-/var/
+/var
 /vendor/
 /web/bundles/
 .env
-.vagrant
 /bin
 !/bin/console
 !/bin/symfony_requirements
-var/bootstrap.php.cache
+
+#####=== Node ===#####
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+#Build files
+build
+

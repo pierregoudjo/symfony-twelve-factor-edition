@@ -9,7 +9,7 @@
 >
     <testsuites>
         <testsuite name="Project Test Suite">
-            <directory>tests</directory>
+            <directory>src/AppBundle/Tests</directory>
         </testsuite>
     </testsuites>
 
@@ -27,7 +27,4 @@
             </exclude>
         </whitelist>
     </filter>
-    <logging>
-         <log type="coverage-clover" target="build/logs/clover.xml"/>
-    </logging>
 </phpunit>
